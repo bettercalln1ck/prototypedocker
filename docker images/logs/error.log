@@ -1,0 +1,11 @@
+[Sat Oct 05 21:20:43.018295 2019] [mpm_prefork:notice] [pid 28] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 05 21:20:43.018498 2019] [core:notice] [pid 28] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 05 21:21:55.705233 2019] [:error] [pid 31] [client 172.20.0.1:51826] PHP Fatal error:  Cannot redeclare get_mad_and_give_flag() (previously declared in /var/www/html/flag.php:8) in /var/www/html/flag.php on line 8
+[Sat Oct 05 21:23:08.363549 2019] [:error] [pid 34] [client 172.20.0.1:51888] PHP Fatal error:  Cannot redeclare get_mad_and_give_flag() (previously declared in /var/www/html/flag.php:8) in /var/www/html/flag.php on line 8
+[Sat Oct 05 21:23:33.972411 2019] [:error] [pid 35] [client 172.20.0.1:51892] PHP Fatal error:  Cannot redeclare get_mad_and_give_flag() (previously declared in /var/www/html/flag.php:8) in /var/www/html/flag.php on line 8
+[Sat Oct 05 21:23:34.943284 2019] [:error] [pid 43] [client 172.20.0.1:51896] PHP Fatal error:  Cannot redeclare get_mad_and_give_flag() (previously declared in /var/www/html/flag.php:8) in /var/www/html/flag.php on line 8
+[Sat Oct 05 21:25:24.984921 2019] [:error] [pid 31] [client 172.20.0.1:52136] PHP Fatal error:  Cannot redeclare get_mad_and_give_flag() (previously declared in /var/www/html/flag.php:8) in /var/www/html/flag.php on line 8
+[Sat Oct 05 21:26:28.886724 2019] [:error] [pid 32] [client 172.20.0.1:52160] PHP Fatal error:  Cannot redeclare get_mad_and_give_flag() (previously declared in /var/www/html/flag.php:8) in /var/www/html/flag.php on line 8
+[Sat Oct 05 21:31:54.296048 2019] [core:warn] [pid 30] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 05 21:31:54.300882 2019] [mpm_prefork:notice] [pid 30] AH00163: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Sat Oct 05 21:31:54.300935 2019] [core:notice] [pid 30] AH00094: Command line: '/usr/sbin/apache2'
