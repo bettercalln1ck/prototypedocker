@@ -1,13 +1,23 @@
+# ./docker-compose.yml
 
-version: '2'
+version: '3.3'
 
 services:
-    web:
-        build: .
-        ports:
-            - '10005:80'
-        stdin_open: true
-        tty: true
-        volumes:
-            - ./source:/var/www/html
-            - ./logs:/var/log/apache2
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: hello
+      MYSQL_DATABASE: db 
+      MYSQL_USER: root
+      MYSQL_PASSWORD: pass
+    ports:
+      - "9906:3306"
+  web:
+    build: .
+    ports:
+      - '10005:80'
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./source:/var/www/html
+      - ./logs:/var/log/apache2
